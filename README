@@ -1,0 +1,16 @@
+main_server.py is a customized HTTP server.
+client.py is a client program.
+The userList file should be put into the same folder as main_server.py. It stores the user-account information.
+
+To run main_server.py:
+    $ python main_server.py [--port=PORT_NUMBER]
+To run client.py:
+    $ python client.py [--host=HOST_NAME][--port=PORT_NUMBER]
+
+Client users can just follow the commandline information to use the file share system.
+    First, you need to register an account.
+    Second, use that account to login.
+    Then, you can download or upload files.
+    *notice: please make sure that the file paths are absolute paths
+        For download: all files are stored in '/'. (Example: '/myPicture.png')
+        For upload: just use the local absolute paths
